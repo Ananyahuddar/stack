@@ -15,7 +15,7 @@ isEmpty(): It determines whether the stack is empty or not.
 
 isFull(): It determines whether the stack is full or not.
 
-Algorithm of the program:
+# Algorithm of the program:
 
 
 Declare variable top and assign it to -1.
@@ -39,9 +39,13 @@ Declare and define the function display
 DISPLAY FUNCTION:
 
 Print the array using for loop.
-Applications of Stack:
-Balancing of symbols: Stack is used for balancing a symbol.As we know, each program has an opening and closing braces; when the opening braces come, we push the braces in a stack, and when the closing braces appear, we pop the opening braces from the stack. Therefore, the net value comes out to be zero. If any symbol is left in the stack, it means that some syntax occurs in a program.
 
-Expression conversion: Stack can also be used for expression conversion. This is one of the most important applications of stack. The list of the expression conversion is given below: Infix to prefix Infix to postfix Prefix to infix Prefix to postfix Postfix to infix
+# Applications of Stack:
+1.Balancing of symbols: Stack is used for balancing a symbol.As we know, each program has an opening and closing braces; when the opening braces come, we push the braces in a stack, and when the closing braces appear, we pop the opening braces from the stack. Therefore, the net value comes out to be zero. If any symbol is left in the stack, it means that some syntax occurs in a program.
 
-UNDO/REDO: It can also be used for performing UNDO/REDO operations. For example, we have an editor in which we write 'a', then 'b', and then 'c'; therefore, the text written in an editor is abc. So, there are three states, a, ab, and abc, which are stored in a stack. There would be two stacks in which one stack shows UNDO state, and the other shows REDO state. If we want to perform UNDO operation, and want to achieve 'ab' state, then we implement pop operation.
+2.Expression conversion: Stack can also be used for expression conversion. This is one of the most important applications of stack. The list of the expression conversion is given below: Infix to prefix Infix to postfix Prefix to infix Prefix to postfix Postfix to infix
+
+3.UNDO/REDO: It can also be used for performing UNDO/REDO operations. For example, we have an editor in which we write 'a', then 'b', and then 'c'; therefore, the text written in an editor is abc. So, there are three states, a, ab, and abc, which are stored in a stack. There would be two stacks in which one stack shows UNDO state, and the other shows REDO state. If we want to perform UNDO operation, and want to achieve 'ab' state, then we implement pop operation.
+
+Find some more applications here :
+https://www.javatpoint.com/applications-of-stack-in-data-structure
