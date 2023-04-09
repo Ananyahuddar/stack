@@ -9,6 +9,7 @@ stack is a linear data structure that follows a particular order in which the op
 push(): When we insert an element in a stack then the operation is known as a push. If the stack is full then the overflow condition occurs.
 ![image](https://user-images.githubusercontent.com/125941580/230757462-9801d268-5c6b-4eca-9b99-c0bac268af31.png)
 pop(): When we delete an element from the stack, the operation is known as a pop. If the stack is empty means that no element exists in the stack, this state is known as an underflow state.
+![image](https://user-images.githubusercontent.com/125941580/230757485-ab069d61-33e6-4efe-992c-d471542eb4c5.png)
 
 isEmpty(): It determines whether the stack is empty or not.
 
