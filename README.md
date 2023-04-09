@@ -1,4 +1,4 @@
-# stack
+# Stack Using Array
 
 stack is a linear data structure that follows a particular order in which the operations are performed. LIFO (Last In First Out) implies that the element that is inserted last, comes out first and FILO (First In Last Out) implies that the element that is inserted first, comes out last.
 ![image](https://user-images.githubusercontent.com/125941580/230757419-a4b94199-8cd5-406f-8317-97655d3581e1.png)
